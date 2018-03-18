@@ -378,23 +378,19 @@ div {
     background: #D6D6D6;
     color: #869791;
     font-size: 0.8em;
-    padding: .2em .5em;
+    padding: .4em .4em;
     outline: none;
 	display: inline-block;
 	margin-right: 5px;
 	border-radius: 1em;
-	content: "0";
 	transition: 0.5s;
 }
 
-#controlDots .owl-dot:before {
-    counter-increment: dots;
-    content: counter(dots);
-}
 
 #controlDots  .active {
-		background:#869791;
+		background:#2D2D35;
 		color: #D6D6D6;
+		box-shadow: 0 1px 12px rgba(232, 228, 228, 0.6);
 
 }
 .main {
